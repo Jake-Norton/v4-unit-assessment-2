@@ -12,3 +12,149 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+
+.header {
+    height: 70px;
+    width: 1344px;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#lefttext {
+    float: left;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: rgb(42, 171, 226)
+}
+
+#righttext {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(255, 255, 255)
+}
+
+.toppart {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+#textwall {
+    margin-left: 170px;
+    margin-right: 100px;
+    line-height: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.infoboxes {
+    height: 700px;
+    width: 300px;
+    position: relative;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#profile {
+    position: absolute;
+    height: 320px;
+    width: 280px;
+    top: 0px;
+    left: 0px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(102, 75, 75, .3), 0 12px 40px 0 rgba(102, 75, 75, .3);
+    border-radius: 25px;
+}
+
+#list {
+    position: absolute;
+    height: 320px;
+    width: 280px;
+    top: 350px;
+    left: 0px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    box-shadow: 0 8px 16px 0 rgba(102, 75, 75, .3), 0 12px 40px 0 rgba(102, 75, 75, .3);
+    border-radius: 25px;
+
+}
+
+#label {
+    float: left;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    margin-left: 170px;
+}
+
+#link {
+    float: right;
+    font-family: 'Nunito', sans-serif;
+    margin-right: 1000px;
+}
+
+#picbox {
+    height: 200px;
+    width: 800px;
+    position: absolute;
+    top: 900px;
+    right: 900px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.img {
+    margin: 15px;
+}
+
+.footer {
+    height: 70px;
+    width: 1344px;
+    background-color: rgb(42, 171, 226);
+    display: flex;
+    position: absolute;
+    top: 1200px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#bottomleft {
+    float: left;
+    font-size: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: rgb(37, 37, 37)
+}
+
+#circle {
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(37, 37, 37);
+    border: 3px solid rgb(37, 37, 37);
+    border-radius: 100%;
+    font-weight: bold;
+    box-sizing: border-box;
+}
